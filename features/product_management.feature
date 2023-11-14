@@ -11,6 +11,6 @@ Feature: Product Management
     Then I should see the product named "Teh Javana" in the search result
 
     Scenario: View All Product
-    Given there are products in the product lists
+    Given There are products in the product lists
     When I view the list of the products
     Then I should see the product named "Teh Javana" in the products list
